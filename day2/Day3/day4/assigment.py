@@ -152,18 +152,18 @@
 
 #medium level 
 #1
-# def common_elements(a, b):
-#     result = [i for i in a if i in b]
-#     return result
-# a = [1, 2, 3, 4, 5]
-# b = [4, 5, 6, 7, 8]
-# print("the commmon elements in the two list are:")
-# print(common_elements(a, b))
+def common_elements(a, b):
+    result = [i for i in a if i in b]
+    return result
+a = [1, 2, 3, 4, 5]
+b = [4, 5, 6, 7, 8]
+print("the commmon elements in the two list are:")
+print(common_elements(a, b))
 
 #2
-numbers = [1, 2, 2, 3, 4, 4, 5, 5]
-unique_numbers = list(set(numbers))
-print(unique_numbers)
+# numbers = [1, 2, 2, 3, 4, 4, 5, 5]
+# unique_numbers = list(set(numbers))
+# print(unique_numbers)
 
 #3
 # def getpairscount(arr, n, k):
